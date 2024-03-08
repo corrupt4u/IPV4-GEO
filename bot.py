@@ -3,7 +3,7 @@ import requests
 import re
 
 client = discord.Client(intents=discord.Intents.all())
-CHANNEL_ID = 
+CHANNEL_ID = 1213015557339881533
 
 def get_geo_info(ip):
     response = requests.get(f"https://ipapi.co/{ip}/json/")
@@ -18,7 +18,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.channel.id == CHANNEL_ID:
+    if message.channel.id == CHANNEL_ID: 1213015557339881533
         match = re.match(r"^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$", message.content)
         if match:
             ip = match.group()
