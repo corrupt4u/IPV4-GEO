@@ -35,4 +35,4 @@ async def on_message(message):
             await message.channel.send(embed=embed)
             await message.delete()
 
-client.run("")
+client.run("MTIwODE2Njk0NDc4ODcxNzU2OQ.GyqugK.CKi5qHsg-i3TdsI9eCl9K2vCp2Mgpay91ERZdA")
